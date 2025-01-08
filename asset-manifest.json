@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/alimoussawi1/swb.git/static/css/main.66109356.css",
+    "main.js": "/alimoussawi1/swb.git/static/js/main.65b6d1f6.js",
+    "static/media/mobile1.mp4": "/alimoussawi1/swb.git/static/media/mobile1.510459e0b6cf09669ead.mp4",
+    "static/media/partners.png": "/alimoussawi1/swb.git/static/media/partners.0d8f6f7170c4612b305e.png",
+    "static/media/mainbackground.png": "/alimoussawi1/swb.git/static/media/mainbackground.6508755493aa09c8f916.png",
+    "static/media/affordable.png": "/alimoussawi1/swb.git/static/media/affordable.b4286cff9c61e4c714ed.png",
+    "static/media/pic1.png": "/alimoussawi1/swb.git/static/media/pic1.d1bb0a7bc9b56206d1d0.png",
+    "static/media/pic3.png": "/alimoussawi1/swb.git/static/media/pic3.38b2ad39ced89d4a251d.png",
+    "static/media/pic2.png": "/alimoussawi1/swb.git/static/media/pic2.544de1226f4e6af26c84.png",
+    "static/media/swblogo.png": "/alimoussawi1/swb.git/static/media/swblogo.f6b48508bdb1f7e62800.png",
+    "static/media/paragraph1.png": "/alimoussawi1/swb.git/static/media/paragraph1.9bce40896379c55126f7.png",
+    "static/media/paragraph3.png": "/alimoussawi1/swb.git/static/media/paragraph3.895531ea8adca0a24f02.png",
+    "static/media/paragraph2.png": "/alimoussawi1/swb.git/static/media/paragraph2.7de430a04a7a1bb5d455.png",
+    "index.html": "/alimoussawi1/swb.git/index.html",
+    "main.66109356.css.map": "/alimoussawi1/swb.git/static/css/main.66109356.css.map",
+    "main.65b6d1f6.js.map": "/alimoussawi1/swb.git/static/js/main.65b6d1f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66109356.css",
+    "static/js/main.65b6d1f6.js"
+  ]
+}

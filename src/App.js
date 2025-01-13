@@ -9,6 +9,8 @@ import PictureWithButton from "./components/PictureWithButton";
 import Partner from "./components/Partner";
 import Affordable from "./assets/affordable.png"
 import PictureWithText from "./components/PictureWithText";
+import AboutUs from "./assets/aboutus.png"
+import JobPic from "./assets/job.png"
 
 
 
@@ -20,8 +22,31 @@ function Careers() {
   return <h1>Careers Page</h1>;
 }
 
-function Media() {
-  return <h1>Media Updates Page</h1>;
+function Media() {  return (
+  <>
+
+  <div
+        className="relative w-full h-[600px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${AboutUs})` }}
+      >
+        </div>
+        <div className="flex justify-center mt-10 mb-10">
+        <p className=" flex items-center justify-center mt-2 w-[50%] text-2xl text-[#10758B]"> Students With Benefits (SWB) is an innovative application designed to connect university students with exclusive deals and offers everywhere they go.
+        Our mission is to support students by helping them save money on everyday purchases.</p>
+
+        </div>
+
+
+        </>)
+
+}
+function Jobs() {  return (
+  <div
+        className="relative w-full h-[600px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${JobPic})` }}
+      >
+        </div>
+)
 }
 
 function Dashboard() {
@@ -150,6 +175,19 @@ function App() {
                   exit="exit"
                 >
                   <Media />
+                </motion.div>
+              }
+            />
+              <Route
+              path="jobs"
+              element={
+                <motion.div
+                  variants={pageVariants}
+                  initial="initial"
+                  animate="animate"
+                  exit="exit"
+                >
+                  <Jobs />
                 </motion.div>
               }
             />
